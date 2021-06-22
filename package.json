@@ -1,0 +1,26 @@
+{
+  "name": "me_0",
+  "version": "1.0.0",
+  "description": "A portfolio of mine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitor-w/Me_0.git"
+  },
+  "keywords": [
+    "portfolio",
+    "me_0"
+  ],
+  "author": "Vitor W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitor-w/Me_0/issues"
+  },
+  "homepage": "https://github.com/vitor-w/Me_0#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

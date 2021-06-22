@@ -1,0 +1,118 @@
+.categories {
+  width: 100%;
+  max-height: 70vh;
+
+  padding: 0 3.3rem 3.5rem;
+  margin-top: 2rem;
+
+  box-shadow: inset 0.9rem 1rem 0 0.8rem rgba(90, 90, 90, 0.2);
+  border: 2px solid rgb(30, 30, 30);
+  border-radius: 28px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  overflow: auto;
+}
+
+.categories::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.categories::-webkit-scrollbar-track {
+  border: 0.2rem solid grey;
+  border-radius: 1rem;
+}
+
+.categories::-webkit-scrollbar-button {
+  display: none;
+}
+
+.categories::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #aa74b2;
+}
+
+.category {
+  width: 100%;
+  height: auto;
+
+  padding: 3.3rem 0;
+  margin-top: 3.3rem;
+
+  background: radial-gradient(
+    61.78% 93.08% at 50% 50.07%,
+    rgba(197, 112, 218, 0.4) 44.79%,
+    rgba(248, 26, 119, 0.4) 100%
+  );
+  mix-blend-mode: color;
+  border-radius: 2.8rem;
+}
+
+.categoryName {
+  padding: 0 0 1rem 1.75rem;
+
+  font: clamp(2rem, 5vw, 3.6rem) / 1.1 "Nova Round", sans-serif;
+}
+
+.topics {
+  padding: 1rem 1.75rem 0 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.3rem, auto));
+
+  row-gap: 1rem;
+}
+
+.topic {
+  width: 19.5rem;
+  height: 19.5rem;
+
+  justify-content: center;
+
+  /*background: yellow;
+  border: 2px solid black;*/
+}
+
+.topic div {
+  width: 18rem;
+  height: 18rem;
+
+  padding: 1.2rem 1.4rem;
+  margin: 1.75rem 0 0 1.75rem;
+
+  background: white;
+
+  border: 0.2rem solid white;
+  border-right: rgba(0, 0, 0, 0);
+  border-bottom: rgba(0, 0, 0, 0);
+  border-radius: 31px;
+
+  text-overflow: ellipsis;
+
+  box-shadow: rgba(90, 90, 90, 0.2);
+
+  transition: margin 1s, box-shadow 1s, border-top-color 1s,
+    border-left-color 1s;
+}
+
+.topic div:hover {
+  border-top-color: rgb(190, 190, 190);
+  border-left-color: rgb(190, 190, 190);
+
+  box-shadow: 0.9rem 1rem 0 0.5rem rgba(90, 90, 90, 0.2);
+
+  margin: 0 0;
+}
+
+.topic div h1 {
+  margin: 0 0 1rem 0rem;
+
+  font: clamp(2rem, 5vw, 3.6rem) / 1.1 "Nova Round", sans-serif;
+  font-size: 2.1rem;
+}
+
+.topic div p {
+  font-size: 1.7rem;
+}

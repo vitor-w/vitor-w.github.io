@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.formulario{
+  margin: auto;
+  width: 30%;
+  border: 3px solid #B6C867;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #01937C;
+}
+
+body{
+  background-color:#FAF1E6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #01937C;
+  margin: 20px;
+}
+
+.inputText{
+  width: 200px;
+  border: 3px solid #FFC074;
+  padding: 5px;
+  margin: 20px;
+}
+
+#bSend{
+  width: 50px;
+  height: 40px;
+  border-radius: 8px;
+  background: #FFC074;
+}
+
+#bback{
+  width: 70px;
+  height: 40px;
+  border-radius: 8px;
+  background: #B6C867;
+  color: black;
+  text-decoration: none;
+  
+}
+
+#bback a{
+  color: black;
+
+  text-decoration: none;
+  
+}
+
+
+

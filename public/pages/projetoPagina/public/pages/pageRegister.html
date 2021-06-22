@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/jquery.md5.js"></script>
+    <script src="../js/register.js"> </script>
+</head>
+<body>
+  <h1>Formulário de inscrição</h1>
+        <form id="form-inscricao" class="formulario">
+            Name:<input type="text"  placeholder="Name" id="name" class="inputText" name="name"/> <br>
+
+            Last Name:<input type="text"  placeholder="Last Name" id="lastName" class="inputText" name="lastName"/> <br>
+
+            User:<input type="text"  placeholder="User" id="user" class="inputText" name="user"/><br>
+
+            Password:<input type="password" placeholder="password" id="password" class="inputText" name="password"/><br>
+
+            UF: 
+            <select name="UF" class="inputSelect">
+                    <option value=null ></option>
+                    <option> PR</option>
+                    <option> SC</option>
+                    <option> RS</option>
+            </select> 
+            <br>
+            CEP:<input type="text" class="inputText" name="CEP"><br>
+            Address: <input type="text"  class="inputText" name="Address"><br>
+            Number: <input type="text" class="inputText" id="number" name="Number"/><br>
+            <br>
+
+            Payment:
+            <select class="inputSelect" name="formaPagamento">
+                <option value=null ></option>
+                <option>PayPal</option>
+                <option>PIX</option>
+                <option>Credit card</option>
+            </select>
+            <br>
+            <br>
+            <button id="bSend" >Send</button> <br>
+            <br>
+            
+            <button id="bback"><a href="../../index.html">Back</a></button>
+        </form>
+ 
+</body>
+</html>

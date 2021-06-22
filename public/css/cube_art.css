@@ -1,0 +1,112 @@
+body {
+  width: 800px;
+
+  margin: 0 auto;
+  padding: 0 4rem;
+
+  border: solid grey;
+  border-width: 0 0.2rem;
+}
+
+.nav_bar {
+  height: 13.8rem;
+  font: 400 2.4rem /1 "Source Sans Pro", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_bar li {
+  cursor: pointer;
+
+  padding-left: 2.4rem;
+
+  font-size: 2.1rem;
+
+  display: inline-block;
+}
+
+.lngs_options {
+  float: right;
+
+  padding: 0.4rem;
+
+  border: 2px solid #dadada;
+  border-radius: 2rem;
+
+  display: inline;
+}
+
+.lngs_options select {
+  border: none;
+}
+
+.autor {
+  font-size: 1.6rem;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.autor p {
+  margin-right: 0.2rem;
+}
+
+.autor img {
+  width: 2.2rem;
+
+  margin-left: 0.3rem;
+
+  text-decoration: none;
+}
+
+.about {
+  font-size: 2rem;
+
+  margin: 3rem 0;
+}
+
+article h1 {
+  margin-top: 1.5rem;
+
+  text-align: center;
+
+  font: 600 8rem /1 "Source Sans Pro", sans-serif;
+}
+
+.githubLink {
+  color: black;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.githubLink img {
+  width: 2.2rem;
+
+  margin-left: 0.3rem;
+}
+
+article p {
+  margin-top: 1rem;
+
+  text-align: justify;
+
+  font-size: 2.4rem;
+}
+
+.projectImage {
+  width: 100%;
+
+  margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100vw;
+
+    padding: 0 1.6rem;
+  }
+}

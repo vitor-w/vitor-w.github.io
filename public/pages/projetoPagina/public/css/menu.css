@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 35%;
+
+  background-color: #faf1e6;
+
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+
+  color: 01937c;
+  font-size: 6rem;
+
+  text-align: center;
+
+  line-height: 5.5rem;
+
+  margin: 3rem 0 0;
+}
+
+.buttons {
+  margin: 2vw auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttons :first-child {
+  border-radius: 0.7rem 0 0 0.7rem;
+
+  border: 1px solid #25692a;
+}
+
+.buttons :last-child {
+  border-radius: 0 0.7rem 0.7rem 0;
+
+  border: 1px solid #25692a;
+}
+
+.menuButtons {
+  width: 150px;
+
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+
+  text-align: center;
+
+  padding: 10px 10px;
+
+  background-color: #b6c867;
+
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #25692a;
+
+  display: inline-block;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  transition: background-color 200ms;
+}
+
+.menuButtons:hover {
+  background: rgb(167, 165, 68);
+}
+
+p1 {
+  font-size: 2.2rem;
+
+  text-align: justify;
+
+  display: block;
+}
+
+p2 {
+  font-size: 1.5rem;
+
+  text-align: justify;
+
+  display: block;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+  body {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body {
+    width: 75%;
+  }
+}
